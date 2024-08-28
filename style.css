@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 500px;
+  height: 600px;
+  border: 3px solid darkgray;
+  border-radius: 10px;
+  background-color: rgb(188, 188, 188);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 상단 왼쪽 미니 버튼 */
+.miniBtns {
+  display: flex;
+  width: 450px;
+  margin-bottom: 10px;
+}
+.miniBtn {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: 0 3px;
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: rgba(244, 244, 14, 0.874);
+}
+#green {
+  background-color: green;
+}
+
+/* display 영역 */
+.display {
+  width: 440px;
+  height: 90px;
+  border: 5px solid lightgray;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+  padding: 30px;
+}
+#result {
+  font-size: 60px;
+  text-align: right;
+  line-height: 25px;
+}
+
+/* button 영역 */
+.buttons {
+  width: 450px;
+  height: 450px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 108px;
+  height: 85px;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 2px;
+  background-color: rgb(234, 234, 234);
+}
+.zero {
+  width: 220px;
+}
+.button:hover {
+  background-color: rgb(188, 188, 188);
+}
+.button:active {
+  background-color: lightcoral;
+}
